@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ecommerce Suite]">
+  <test thread-count="5" name="Framework Validation(failed)">
+    <classes>
+      <class name="tests.E2ETestFlow">
+        <methods>
+          <include name="EndtoEndFlow"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.E2ETestFlow -->
+    </classes>
+  </test> <!-- Framework Validation(failed) -->
+</suite> <!-- Failed suite [Ecommerce Suite] -->

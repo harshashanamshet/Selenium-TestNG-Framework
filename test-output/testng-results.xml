@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-09T16:43:08 IST" name="Ecommerce Suite" finished-at="2026-07-09T16:43:19 IST" duration-ms="11843">
+    <groups>
+    </groups>
+    <test started-at="2026-07-09T16:43:08 IST" name="Login Validation" finished-at="2026-07-09T16:43:17 IST" duration-ms="9077">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:08 IST" name="setup" finished-at="2026-07-09T16:43:10 IST" duration-ms="1678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin(data.LoginData)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:10 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-07-09T16:43:10 IST" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.LoginData@982bb90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:10 IST" name="tearDown" finished-at="2026-07-09T16:43:10 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:10 IST" name="setup" finished-at="2026-07-09T16:43:11 IST" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin(data.LoginData)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:11 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-07-09T16:43:12 IST" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.LoginData@2f5c1332]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:12 IST" name="tearDown" finished-at="2026-07-09T16:43:12 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:12 IST" name="setup" finished-at="2026-07-09T16:43:13 IST" duration-ms="1146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin(data.LoginData)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:13 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-07-09T16:43:13 IST" duration-ms="233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.LoginData@26a2f7f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:13 IST" name="tearDown" finished-at="2026-07-09T16:43:14 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:14 IST" name="setup" finished-at="2026-07-09T16:43:15 IST" duration-ms="1045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin(data.LoginData)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:15 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-07-09T16:43:15 IST" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.LoginData@2b329bbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:15 IST" name="tearDown" finished-at="2026-07-09T16:43:15 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:15 IST" name="setup" finished-at="2026-07-09T16:43:16 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin(data.LoginData)[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:16 IST" name="VerifyLogin" data-provider="loginData" finished-at="2026-07-09T16:43:16 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.LoginData@165e389b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@13d73f29]" started-at="2026-07-09T16:43:17 IST" name="tearDown" finished-at="2026-07-09T16:43:17 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Validation -->
+    <test started-at="2026-07-09T16:43:17 IST" name="Framework Validation" finished-at="2026-07-09T16:43:19 IST" duration-ms="2452">
+      <class name="tests.E2ETestFlow">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.E2ETestFlow@77659b30]" started-at="2026-07-09T16:43:17 IST" name="setup" finished-at="2026-07-09T16:43:18 IST" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="EndtoEndFlow()[pri:0, instance:tests.E2ETestFlow@77659b30]" started-at="2026-07-09T16:43:18 IST" name="EndtoEndFlow" finished-at="2026-07-09T16:43:19 IST" duration-ms="1016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndtoEndFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.E2ETestFlow@77659b30]" started-at="2026-07-09T16:43:19 IST" name="tearDown" finished-at="2026-07-09T16:43:19 IST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.E2ETestFlow -->
+    </test> <!-- Framework Validation -->
+  </suite> <!-- Ecommerce Suite -->
+</testng-results>

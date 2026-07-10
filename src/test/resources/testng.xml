@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Ecommerce Suite">
+ <listeners>
+        <listener class-name="listeners.TestListners"/>
+    </listeners>
+    <test name="Login Validation">
+
+        <classes>
+
+            <class name="tests.LoginTest"/>
+
+        </classes>
+
+    </test>
+    
+    <test name="Framework Validation">
+
+        <classes>
+
+            <class name="tests.E2ETestFlow"/>
+
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,32 @@
+[
+	{
+	"username" : "standard_user",
+	"password" : "secret_sauce",
+	"expectedResult" : true,
+	"expectedMsg" : ""
+},
+{
+	"username" : "locked_out_user",
+	"password" : "secret_sauce",
+	"expectedResult" : false,
+	"expectedMsg" : "Epic sadface: Sorry, this user has been locked out."
+},
+{
+	"username" : "",
+	"password" : "secret_sauce",
+	"expectedResult" : false,
+	"expectedMsg" : "Epic sadface: Username is required"
+},
+{
+	"username" : "locked_out_user",
+	"password" : "",
+	"expectedResult" : false,
+	"expectedMsg" : "Epic sadface: Password is required"
+},
+{
+	"username" : "sfgdfdf",
+	"password" : "dfgfdgvdf",
+	"expectedResult" : false,
+	"expectedMsg" : "Epic sadface: Username and password do not match any user in this service"
+}
+]
